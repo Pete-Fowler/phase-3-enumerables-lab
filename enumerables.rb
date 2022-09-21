@@ -70,3 +70,11 @@ def average_heat_level(spicy_foods)
   end
   total / spicy_foods.length
 end
+
+# alternate solution using sum
+# def average_heat_level(spicy_foods)
+#   total_heat_level = spicy_foods.sum do|food| 
+#     food[:heat_level] 
+#   end
+#   total_heat_level / spicy_foods.length
+# end
